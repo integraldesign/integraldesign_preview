@@ -6,7 +6,7 @@
     <meta name="keywords" content="diseño piezas composites, empresa diseño ingenieria, estudio diseño industrial, poliester">
     <meta name="description" content="Empresa de diseño e ingenieria. Desarrollo de proyectos industriales desde el concepto hasta la fabricacion">
     <meta name="author" content="">
-    <title>Diseño Industrial - Ingeniería y desarrollo de producto | Empresa de diseño e ingeniería. Desarrollo de proyectos industriales desde el concepto hasta la fabricación</title>
+    <title><?php echo $title; ?> | Diseño Industrial - Ingeniería y desarrollo de producto | Empresa de diseño e ingeniería. Desarrollo de proyectos industriales desde el concepto hasta la fabricación</title>
 	
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -65,38 +65,38 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li class="active"><a href="index.php">Inicio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Porqué <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="origen.html">Origen</a></li>
-                                <li><a href="misionvisionvalores.html">Misión, visión y valores</a></li>
-                                <li><a href="metodologia.html">Metodología orientada<br>al éxito</a></li>
+                                <li><a href="origen.php">Origen</a></li>
+                                <li><a href="misionvisionvalores.php">Misión, visión y valores</a></li>
+                                <li><a href="metodologia.php">Metodología orientada<br>al éxito</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Como <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="diseno.html">Diseño</a></li>
-                                <li><a href="ingenieria.html">Ingeniería</a></li>
-                                <li><a href="maquetas.html">Maquetas</a></li>
-                                <li><a href="id.html">I+D</a></li>
+                                <li><a href="diseno.php">Diseño</a></li>
+                                <li><a href="ingenieria.php">Ingeniería</a></li>
+                                <li><a href="maquetas.php">Maquetas</a></li>
+                                <li><a href="id.php">I+D</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Qué <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="ferroviario.html">Ferroviario</a></li>
-                                <li><a href="automocion.html">Automoción</a></li>
-                                <li><a href="dispositivoselectronicos.html">Dispositivos electrónicos</a></li>
+                                <li><a href="ferroviario.php">Ferroviario</a></li>
+                                <li><a href="automocion.php">Automoción</a></li>
+                                <li><a href="dispositivoselectronicos.php">Dispositivos electrónicos</a></li>
                             </ul>
                         </li>
-                        <li><a href="donde.html">Dónde</a></li>
+                        <li><a href="donde.php">Dónde</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->

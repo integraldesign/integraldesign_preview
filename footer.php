@@ -5,11 +5,11 @@
                     <div class="widget">
                         <h3>Integral Design and Development</h3>
                         <ul>
-                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="nosotros.php">Nosotros</a></li>
                             <li><a href="#">Copyright</a></li>
                             <li><a href="#">Términos de uso</a></li>
                             <li><a href="#">Política de privacidad</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
+                            <li><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -40,9 +40,9 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="donde.html">Dónde</a></li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="nosotros.php">Nosotros</a></li>
+                        <li><a href="donde.php">Dónde</a></li>
                     </ul>
                 </div>
             </div>

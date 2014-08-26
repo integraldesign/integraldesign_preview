@@ -1,5 +1,6 @@
 <?php
-require_once("header.php");
+    $title = "Integral Design and Development";
+    require_once("header.php");
 ?>
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
@@ -79,7 +80,6 @@ require_once("header.php");
             <i class="fa fa-chevron-right"></i>
         </a>
     </section><!--/#main-slider-->
-
-    <?php
-        require_once("footer.php");
-    ?>
+<?php
+    require_once("footer.php");
+?>
