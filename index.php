@@ -127,7 +127,7 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1"><?php echo $lang['MENU_INGIENERIA']; ?></h1>
+                                    <h1 class="animation animated-item-1"><?php echo $lang['MENU_INGENIERIA']; ?></h1>
                                     <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
                                     <a class="btn-slide animation animated-item-3" href="#"><?php echo $lang['SEGUIRLEYENDO']; ?></a>
                                 </div>
@@ -146,7 +146,7 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1"><?php echo $lang['MENU_INGIENERIA']; ?></h1>
+                                    <h1 class="animation animated-item-1"><?php echo $lang['MENU_INGENIERIA']; ?></h1>
                                     <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
                                     <a class="btn-slide animation animated-item-3" href="#"><?php echo $lang['SEGUIRLEYENDO']; ?></a>
                                 </div>

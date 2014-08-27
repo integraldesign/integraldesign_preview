@@ -18,7 +18,7 @@
 	$lang['MENU_METODOLOGIA'] = 'Success oriented<br>methodology';
 	$lang['MENU_COMO'] = 'How';
 	$lang['MENU_DISENO'] = 'Design';
-	$lang['MENU_INGIENERIA'] = 'Engineering';
+	$lang['MENU_INGENIERIA'] = 'Engineering';
 	$lang['MENU_MAQUETAS'] = "Mock-up's";
 	$lang['MENU_ID'] = 'I+D';
 	$lang['MENU_QUE'] = 'What';
@@ -46,5 +46,9 @@
 	$lang['PROYECTOINTEGRA'] = 'Integrated Project';
 	$lang['SEGUIRLEYENDO'] = 'Read more';
 	$lang['VER'] = 'View';
+	$lang['DE'] = 'of';
+
+	// Portfolio
+	$lang['ULTIMOSDISENOS'] = 'Latest designs';
 	
 ?>

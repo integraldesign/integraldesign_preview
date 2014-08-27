@@ -99,12 +99,12 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta1.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 1</a> </h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 1</a> </h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -112,12 +112,12 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta2.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 2</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 2</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -125,12 +125,12 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta3.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 3</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 3</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -138,12 +138,12 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta4.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 4</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 4</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -151,12 +151,12 @@
                         
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta5.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 5</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 5</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -164,12 +164,12 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta6.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 6</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 6</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -177,12 +177,12 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta7.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 7</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 7</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>
@@ -190,12 +190,77 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta8.jpg" alt="">
                                 <div class="overlay">
                                     <div class="recent-work-inner">
-                                        <h3><a href="#">Maqueta 8</a></h3>
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 8</a></h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>   
+
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="recent-work-wrap">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta9.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="recent-work-inner">
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 9</a></h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="recent-work-wrap">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta10.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="recent-work-inner">
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 10</a></h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta10.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>   
+
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="recent-work-wrap">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta11.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="recent-work-inner">
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 11</a></h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta11.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>   
+
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="recent-work-wrap">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta12.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="recent-work-inner">
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 12</a></h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta12.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>   
+
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="recent-work-wrap">
+                                <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta13.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="recent-work-inner">
+                                        <h3><a href="#"><?php echo $lang['MAQUETA']; ?> 13</a></h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                        <a class="preview" href="images/portfolio/full/maqueta/maqueta13.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                     </div> 
                                 </div>
                             </div>

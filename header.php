@@ -86,7 +86,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['MENU_COMO']; ?> <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li <?php if ($menu==7) {?>class="active"<?php } ?>><a href="diseno.php"><?php echo $lang['MENU_DISENO']; ?></a></li>
-                                <li <?php if ($menu==8) {?>class="active"<?php } ?>><a href="ingenieria.php"><?php echo $lang['MENU_INGIENERIA']; ?></a></li>
+                                <li <?php if ($menu==8) {?>class="active"<?php } ?>><a href="ingenieria.php"><?php echo $lang['MENU_INGENIERIA']; ?></a></li>
                                 <li <?php if ($menu==9) {?>class="active"<?php } ?>><a href="maquetas.php"><?php echo $lang['MENU_MAQUETAS']; ?></a></li>
                                 <li <?php if ($menu==10) {?>class="active"<?php } ?>><a href="id.php"><?php echo $lang['MENU_ID']; ?></a></li>
                             </ul>

@@ -18,7 +18,7 @@
 	$lang['MENU_METODOLOGIA'] = 'Успех ориентированная<br>методология';
 	$lang['MENU_COMO'] = 'Как приходят';
 	$lang['MENU_DISENO'] = 'Дизайн';
-	$lang['MENU_INGIENERIA'] = 'Инжиниринг';
+	$lang['MENU_INGENIERIA'] = 'Инжиниринг';
 	$lang['MENU_MAQUETAS'] = 'Модели';
 	$lang['MENU_ID'] = 'I+D';
 	$lang['MENU_QUE'] = 'Что';
@@ -46,5 +46,8 @@
 	$lang['PROYECTOINTEGRA'] = 'Комплексный проект';
 	$lang['SEGUIRLEYENDO'] = 'Продолжить чтение';
 	$lang['VER'] = 'Посмотреть';
-	
+	$lang['DE'] = 'из';
+
+	// Portfolio
+	$lang['ULTIMOSDISENOS'] = 'Последние проекты';
 ?>

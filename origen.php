@@ -75,7 +75,7 @@
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
 							<div class="css-skill">                                    
 								<p><em>80%</em></p>
-								<p><?php echo $lang['MENU_INGIENERIA']; ?></p>
+								<p><?php echo $lang['MENU_INGENIERIA']; ?></p>
 							</div>
 						</div>
 					</div>
