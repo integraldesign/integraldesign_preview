@@ -5,7 +5,7 @@
 ?>
     <section id="contact-info">
         <div class="center">                
-            <h2>¿Donde estamos?</h2>
+            <h2><?php echo $lang['TITLE_DONDE']; ?></h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </div>
         <div class="gmap-area">

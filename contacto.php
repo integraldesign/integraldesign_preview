@@ -5,7 +5,7 @@
     <section id="contact-page">
         <div class="container">
             <div class="center">        
-                <h2>Contacta con nosotros</h2>
+                <h2><?php echo $lang['TITLE_CONTACTO']; ?></h2>
                 <p class="lead">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> 
             <div class="row contact-wrap"> 
