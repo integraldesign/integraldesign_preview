@@ -1,5 +1,6 @@
 <?php
     $title = "Diseño";
+    $menu = 7;
     require_once("header.php");
 ?>
     <section id="feature" class="transparent-bg">

@@ -55,7 +55,7 @@
                 </div>
             </div><!--/.container-->
         </div><!--/.top-bar-->
-
+        <?php if(empty($menu)){$menu = 1;} ?>
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -70,33 +70,33 @@
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Inicio</a></li>
+                        <li <?php if ($menu==1) {?>class="active"<?php } ?>><a href="index.php">Inicio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Porqué <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="origen.php">Origen</a></li>
-                                <li><a href="misionvisionvalores.php">Misión, visión y valores</a></li>
-                                <li><a href="metodologia.php">Metodología orientada<br>al éxito</a></li>
+                                <li <?php if ($menu==3) {?>class="active"<?php } ?>><a href="origen.php">Origen</a></li>
+                                <li <?php if ($menu==4) {?>class="active"<?php } ?>><a href="misionvisionvalores.php">Misión, visión y valores</a></li>
+                                <li <?php if ($menu==5) {?>class="active"<?php } ?>><a href="metodologia.php">Metodología orientada<br>al éxito</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Como <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="diseno.php">Diseño</a></li>
-                                <li><a href="ingenieria.php">Ingeniería</a></li>
-                                <li><a href="maquetas.php">Maquetas</a></li>
-                                <li><a href="id.php">I+D</a></li>
+                                <li <?php if ($menu==7) {?>class="active"<?php } ?>><a href="diseno.php">Diseño</a></li>
+                                <li <?php if ($menu==8) {?>class="active"<?php } ?>><a href="ingenieria.php">Ingeniería</a></li>
+                                <li <?php if ($menu==9) {?>class="active"<?php } ?>><a href="maquetas.php">Maquetas</a></li>
+                                <li <?php if ($menu==10) {?>class="active"<?php } ?>><a href="id.php">I+D</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Qué <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="ferroviario.php">Ferroviario</a></li>
-                                <li><a href="automocion.php">Automoción</a></li>
-                                <li><a href="dispositivoselectronicos.php">Dispositivos electrónicos</a></li>
+                                <li <?php if ($menu==12) {?>class="active"<?php } ?>><a href="ferroviario.php">Ferroviario</a></li>
+                                <li <?php if ($menu==13) {?>class="active"<?php } ?>><a href="automocion.php">Automoción</a></li>
+                                <li <?php if ($menu==14) {?>class="active"<?php } ?>><a href="dispositivoselectronicos.php">Dispositivos electrónicos</a></li>
                             </ul>
                         </li>
-                        <li><a href="donde.php">Dónde</a></li>
+                        <li <?php if ($menu==15) {?>class="active"<?php } ?>><a href="donde.php">Dónde</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->

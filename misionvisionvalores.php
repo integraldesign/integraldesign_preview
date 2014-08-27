@@ -1,5 +1,6 @@
 <?php
     $title = "Misión, visión y valores";
+    $menu = 4;
     require_once("header.php");
 ?>
     <section id="services" class="service-item">

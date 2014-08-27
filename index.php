@@ -1,5 +1,6 @@
 <?php
     $title = "Integral Design and Development";
+    $menu = 1;
     require_once("header.php");
 ?>
     <section id="main-slider" class="no-margin">
@@ -22,7 +23,7 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(images/slider/concepto.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -43,7 +44,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                <div class="item" style="background-image: url(images/slider/concepto2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -64,7 +65,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(images/slider/diseno.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -83,7 +84,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg4.jpg)">
+                <div class="item" style="background-image: url(images/slider/diseno2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -102,7 +103,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg5.jpg)">
+                <div class="item" style="background-image: url(images/slider/diseno3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -121,7 +122,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg6.jpg)">
+                <div class="item" style="background-image: url(images/slider/ingieneria.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -140,7 +141,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg7.jpg)">
+                <div class="item" style="background-image: url(images/slider/ingieneria2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -159,7 +160,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg8.jpg)">
+                <div class="item" style="background-image: url(images/slider/pre-industrializacio.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -178,7 +179,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg9.jpg)">
+                <div class="item" style="background-image: url(images/slider/pre-industrializacio2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -197,7 +198,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg10.jpg)">
+                <div class="item" style="background-image: url(images/slider/maqueta.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -216,7 +217,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg11.jpg)">
+                <div class="item" style="background-image: url(images/slider/maqueta2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -235,7 +236,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg12.jpg)">
+                <div class="item" style="background-image: url(images/slider/maqueta3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -254,7 +255,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg13.jpg)">
+                <div class="item" style="background-image: url(images/slider/maqueta4.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -273,7 +274,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg14.jpg)">
+                <div class="item" style="background-image: url(images/slider/proyecto_integrado.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">

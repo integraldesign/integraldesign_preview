@@ -1,5 +1,6 @@
 <?php
     $title = "Dispositivos electrónicos";
+    $menu = 14;
     require_once("header.php");
 ?>
     <section id="portfolio">
