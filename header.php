@@ -25,6 +25,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <script src="js/jquery.js"></script>
 </head><!--/head-->
 
 <body class="homepage">
@@ -82,8 +84,8 @@
                                 <li <?php if ($menu==5) {?>class="active"<?php } ?>><a href="metodologia.php"><?php echo $title_lang['MENU_METODOLOGIA']; ?></a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $title_lang['MENU_COMO']; ?> <i class="fa fa-angle-down"></i></a>
+                        <li class="dropdown <?php if ($menu>=6 AND $menu <=10) {?>active<?php } ?>">
+                            <a href="como.php" class="dropdown-toggle disabled" data-toggle="dropdown"><?php echo $title_lang['MENU_COMO']; ?> <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li <?php if ($menu==7) {?>class="active"<?php } ?>><a href="diseno.php"><?php echo $title_lang['MENU_DISENO']; ?></a></li>
                                 <li <?php if ($menu==8) {?>class="active"<?php } ?>><a href="ingenieria.php"><?php echo $title_lang['MENU_INGENIERIA']; ?></a></li>
@@ -91,8 +93,8 @@
                                 <li <?php if ($menu==10) {?>class="active"<?php } ?>><a href="id.php"><?php echo $title_lang['MENU_ID']; ?></a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $title_lang['MENU_QUE']; ?> <i class="fa fa-angle-down"></i></a>
+                        <li class="dropdown <?php if ($menu>=11 AND $menu <=14) {?>active<?php } ?>">
+                            <a href="que.php" class="dropdown-toggle disabled" data-toggle="dropdown"><?php echo $title_lang['MENU_QUE']; ?> <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li <?php if ($menu==12) {?>class="active"<?php } ?>><a href="ferroviario.php"><?php echo $title_lang['MENU_FERROVIARIO']; ?></a></li>
                                 <li <?php if ($menu==13) {?>class="active"<?php } ?>><a href="automocion.php"><?php echo $title_lang['MENU_AUTOMOCION']; ?></a></li>

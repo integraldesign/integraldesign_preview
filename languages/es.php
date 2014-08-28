@@ -39,6 +39,12 @@
 	$lang['INTRODUCTION2'] = 'La sinergia entre -diseño, ingeniería y fabricación- la investigación y la vocación de servicio a la industria, son nuestros principios. Nuestro valor añadido es la creatividad del diseño industrial como elemento diferencial.';
 	$lang['INTRODUCTION3'] = 'Nuestro mayor orgullo es la fidelización de nuestros clientes, manifestada en los nuevos retos de negocio dentro de la industria. Somos conscientes de mejorar continuamente, día a día, para alcanzar la satisfacción del cliente que es nuestro principal objetivo.﻿';
 
+	// Metodología
+	$lang['ANALISISPRODUCTO'] = 'Análisis del producto';
+	$lang['ESTUDIOSMERCADO'] = 'Estudios de mercado';
+	$lang['CONCEPTUALIZACION'] = 'Conceptualización teórica y formal';
+	$lang['ESTUDIOTARGET'] = 'Estudio de target';
+
 	// Diseño
 	$lang['CARACTERIZACION'] = 'Caracterización exterior e interior de producto';
 	$lang['ESTUDIOSERGONOMICOS'] = 'Estudios ergonómicos';
