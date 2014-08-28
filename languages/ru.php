@@ -24,6 +24,7 @@
 	$lang['ESPANA'] = 'Испания';
 	$lang['ISTAMBUL'] = 'Стамбул';
 	$lang['COLOMBIA'] = 'Колумбия';
+	$lang['CERRAR'] = 'Выключите';
 
 	// Frases
 	$lang['QUEOPINAN'] = 'Что говорят наши клиенты?';
