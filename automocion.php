@@ -10,7 +10,6 @@
                <h2><?php echo $title_lang['MENU_AUTOMOCION']; ?></h2>
                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
-        
 
             <ul class="portfolio-filter text-center">
                 <li><a class="btn btn-default active" href="#" data-filter="*"><?php echo $lang['TODOSTRABAJOS']; ?></a></li>

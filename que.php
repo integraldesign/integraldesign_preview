@@ -4,14 +4,14 @@
     $menu = 11;
     require_once("header.php");
 ?>
-	<section id="about-us">
+	<section id="que">
         <div class="container">
 			<div class="center wow fadeInDown">
 				<h2><?php echo $title_lang['MENU_QUE']; ?></h2>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 			</div>
 		</div>
-    </section><!--/#error-->
+    </section><!--/#que-->
 <?php
     require_once("footer.php");
 ?>

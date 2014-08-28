@@ -4,7 +4,7 @@
     $menu = 14;
     require_once("header.php");
 ?>
-    <section id="portfolio">
+    <section id="dispositivoselectronicos">
         <div class="container">
             <div class="center">
                <h2><?php echo $title_lang['MENU_DISPELEC']; ?></h2>
@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-    </section><!--/#portfolio-item-->
+    </section><!--/#dispositivoselectronicos-->
 <?php
     require_once("footer.php");
 ?>

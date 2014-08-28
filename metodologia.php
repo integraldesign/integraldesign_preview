@@ -4,7 +4,7 @@
     $menu = 5;
     require_once("header.php");
 ?>
-    <section id="services" class="service-item">
+    <section id="metodologia" class="service-item">
        <div class="container">
             <div class="center wow fadeInDown">
                 <h2><?php echo $title_lang['TITLE_METODOLOGIA']; ?></h2>
@@ -62,7 +62,7 @@
                 </div>          
             </div><!--/.row-->
         </div><!--/.container-->
-    </section><!--/#services-->
+    </section><!--/#metodologia-->
 <?php
     require_once("footer.php");
 ?>

@@ -3,7 +3,7 @@
     $title = $title_lang['MENU_NOSOTROS'];
     require_once("header.php");
 ?>
-    <section id="about-us">
+    <section id="nosotros">
         <div class="container">
 			<div class="center wow fadeInDown">
 				<h2><?php echo $title_lang['MENU_NOSOTROS']; ?></h2>
@@ -106,11 +106,8 @@
 							</div>
 						</div>
 					</div>
-					
 				</div>
-	
             </div><!--/.our-skill-->
-			
 
 			<!-- our-team -->
 			<div class="team">
@@ -146,7 +143,6 @@
 							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 						</div>
 					</div><!--/.col-lg-4 -->
-					
 					
 					<div class="col-md-4 col-sm-6 col-md-offset-2">	
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -247,7 +243,7 @@
 				</div>	<!--/.row-->
 			</div><!--section-->
 		</div><!--/.container-->
-    </section><!--/about-us-->
+    </section><!--/nosotros-->
 <?php
     require_once("footer.php");
 ?>

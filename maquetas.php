@@ -4,7 +4,7 @@
     $menu = 9;
     require_once("header.php");
 ?>
-    <section id="services" class="service-item">
+    <section id="maquetas" class="service-item">
        <div class="container">
             <div class="center wow fadeInDown">
                 <h2><?php echo $title_lang['MENU_MAQUETAS']; ?></h2>
@@ -86,7 +86,7 @@
                 </div>                                                
             </div><!--/.row-->
         </div><!--/.container-->
-    </section><!--/#services-->
+    </section><!--/#maquetas-->
 
     <section id="feature" class="transparent-bg">
         <div class="container">            

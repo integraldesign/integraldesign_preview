@@ -3,7 +3,7 @@
     $title = $title_lang['TITLE_CONTACTO'];
     require_once("header.php");
 ?>
-    <section id="contact-page">
+    <section id="contacto">
         <div class="container">
             <div class="center">        
                 <h2><?php echo $title_lang['TITLE_CONTACTO']; ?></h2>
@@ -46,7 +46,7 @@
                 </form> 
             </div><!--/.row-->
         </div><!--/.container-->
-    </section><!--/#contact-page-->
+    </section><!--/#contacto-->
 
     <section id="contact-info">
         <div class="center">                

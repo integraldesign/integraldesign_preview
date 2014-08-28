@@ -4,7 +4,7 @@
     $menu = 15;
     require_once("header.php");
 ?>
-    <section id="contact-info">
+    <section id="donde">
         <div class="center">                
             <h2><?php echo $title_lang['TITLE_DONDE']; ?></h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-    </section>  <!--/gmap_area -->
+    </section>  <!--/donde -->
 <?php
     require_once("footer.php");
 ?>

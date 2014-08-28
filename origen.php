@@ -4,7 +4,7 @@
     $menu = 3;
     require_once("header.php");
 ?>
-    <section id="about-us">
+    <section id="origen">
         <div class="container">
 			<div class="center wow fadeInDown">
 				<h2><?php echo $title_lang['MENU_ORIGEN']; ?></h2>
@@ -113,7 +113,7 @@
             </div><!--/.our-skill-->
 			
 		</div><!--/.container-->
-    </section><!--/about-us-->
+    </section><!--/origen-->
 <?php
     require_once("footer.php");
 ?>
