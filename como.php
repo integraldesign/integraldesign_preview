@@ -56,43 +56,31 @@
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 		    <div id="owl-concepto">
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto1.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto2.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto3.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto4.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto5.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto6.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto7.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto8.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/concepto/concepto9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/concepto/concepto9.jpg" alt=""></a>
 			    </div>
 		    </div>
 	      </div>
@@ -233,43 +221,19 @@
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 	        <div id="owl-preindustrializacion">
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/preindustrializacion/preindustrializacion1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/preindustrializacion/preindustrializacion1.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/preindustrializacion/preindustrializacion2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/preindustrializacion/preindustrializacion2.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/preindustrializacion/preindustrializacion3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/preindustrializacion/preindustrializacion3.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/preindustrializacion/preindustrializacion4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/preindustrializacion/preindustrializacion4.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/preindustrializacion/preindustrializacion5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/preindustrializacion/preindustrializacion5.jpg" alt=""></a>
 			    </div>
 		    </div>
 	      </div>
@@ -362,43 +326,34 @@
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 	        <div id="owl-proyecto">
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto1.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto2.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto3.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto4.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto5.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto6.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto7.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto8.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto9.jpg" alt=""></a>
 			    </div>
 			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
-			    </div>
-			    <div class="item">
-					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+					<a class="preview" href="images/portfolio/full/proyecto/proyecto10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/proyecto/proyecto10.jpg" alt=""></a>
 			    </div>
 		    </div>
 	      </div>
