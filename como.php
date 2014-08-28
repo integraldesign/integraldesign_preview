@@ -11,9 +11,9 @@
 				<h2><?php echo $title_lang['MENU_COMO']; ?></h2>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 				<p>
-					<img usemap="#usemap" class="img-responsive"  src="images/como/como.jpg" alt="">
+					<img usemap="#usemap" class="img-responsive" id="img-responsive" src="images/como/como.jpg" alt="">
 					<map name="usemap">
-						<area shape="poly" coords="213,451,73,567,113,705,280,731,416,607,367,468" href="index.php" title="<?php echo $title_lang['MENU_INICIO']; ?>" alt="<?php echo $title_lang['MENU_INICIO']; ?>">
+						<area onmouseover="shadow('inicio');" onmouseout="reset();"; shape="poly" coords="213,451,73,567,113,705,280,731,416,607,367,468" href="index.php" title="<?php echo $title_lang['MENU_INICIO']; ?>" alt="<?php echo $title_lang['MENU_INICIO']; ?>">
 						<area shape="poly" coords="505,355,390,465,433,594,598,620,720,496,658,370" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
 						<area shape="poly" coords="700,410,721,457,927,394,901,346" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
 						<area shape="poly" coords="463,230,512,342,658,359,773,256,716,146,573,133" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
@@ -43,6 +43,12 @@
 				itemsDesktopSmall : [979,3]
 	    	});
 	    });
+	    function shadow(name){
+	    	$('#img-responsive').attr("src", 'images/como/como' + name + '.jpg');
+	    };
+	    function reset(){
+	    	$('#img-responsive').attr("src", 'images/como/como.jpg');
+	    };
     </script>
     <!-- Modal Concepto -->
 	<div class="modal fade" id="concepto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
