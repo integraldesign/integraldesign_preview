@@ -31,6 +31,7 @@
 	$title_lang['TITLE_CONTACTO'] = 'Связаться с нами';
 	$title_lang['TITLE_DONDE'] = 'Где мы?';
 	$title_lang['TITLE_METODOLOGIA'] = 'Успех ориентированная методология';
+	$title_lang['TITLE_MISIONVISIONVALORES'] = 'Миссия, видение и ценности';
 	$title_lang['TITLE_MISION'] = 'Миссия';
 	$title_lang['TITLE_VISION'] = 'Видение';
 	$title_lang['TITLE_VALORES'] = 'Значения';

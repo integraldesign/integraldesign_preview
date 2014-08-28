@@ -16,7 +16,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-book"></i>
-                            <h2>Proyectos completos</h2>
+                            <h2><?php echo $lang['PROYECTOSCOMPLETOS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -24,7 +24,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-list-ul"></i>
-                            <h2>Instrucciones de trabajo</h2>
+                            <h2><?php echo $lang['INSTRUCCIONESDEGRABAJO']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -32,7 +32,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cubes"></i>
-                            <h2>Estudios y modelos 3D, planos 2D y conjuntos de montaje</h2>
+                            <h2><?php echo $lang['ESTUDIOSYMODELOS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -40,7 +40,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-dot-circle-o"></i>
-                            <h2>Acabados de interiores</h2>
+                            <h2><?php echo $lang['ACABADOSDEINTERIORES']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -48,7 +48,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-list-ul"></i>
-                            <h2>Planning de operaciones</h2>
+                            <h2><?php echo $lang['PLANNINGDEOPERACIONES']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -56,7 +56,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-wrench"></i>
-                            <h2>Mecánica, asistencia al montaje, pruebas y ensayos</h2>
+                            <h2><?php echo $lang['MECANICAASISTENCIA']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -64,7 +64,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-bolt"></i>
-                            <h2>Instalaciones eléctricas</h2>
+                            <h2><?php echo $lang['INSTALACIONESELECTRICAS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -72,7 +72,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-life-ring"></i>
-                            <h2>Instalaciones neumáticas</h2>
+                            <h2><?php echo $lang['INSTALACIONESNEUMATICAS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -80,7 +80,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-puzzle-piece"></i>
-                            <h2>Piezas plásticas</h2>
+                            <h2><?php echo $lang['PIEZASPLASTICAS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -88,7 +88,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-briefcase"></i>
-                            <h2>Utillajes</h2>
+                            <h2><?php echo $lang['UTILLAJES']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->

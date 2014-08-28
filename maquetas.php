@@ -19,7 +19,7 @@
                             <img class="img-responsive" src="images/services/services1.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Maquetas a escala reducida y tamaño real</h3>
+                            <h3 class="media-heading"><?php echo $lang['MAQUETASAESCALA']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                             <img class="img-responsive" src="images/services/services2.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Prototipos funcionales</h3>
+                            <h3 class="media-heading"><?php echo $lang['PROTOIPOSFUNCIONALES']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                             <img class="img-responsive" src="images/services/services3.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Modelos y moldes</h3>
+                            <h3 class="media-heading"><?php echo $lang['MODELOSYMOLDES']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             <img class="img-responsive" src="images/services/services4.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Piezas en composite, fenólica y otras fibras</h3>
+                            <h3 class="media-heading"><?php echo $lang['PIEZASENCOMPOSITE']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                             <img class="img-responsive" src="images/services/services5.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Montajes conjuntos (cabinas, pupitres, cofres eléctricos, etc.)</h3>
+                            <h3 class="media-heading"><?php echo $lang['MONTAJESCONJUNTOS']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                             <img class="img-responsive" src="images/services/services6.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Asistencia técnica a producción</h3>
+                            <h3 class="media-heading"><?php echo $lang['ASISTENCIATECNICA']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>

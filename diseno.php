@@ -16,7 +16,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-sliders"></i>
-                            <h2>Caracterización exterior e interior de producto</h2>
+                            <h2><?php echo $lang['CARACTERIZACION']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -24,7 +24,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-puzzle-piece"></i>
-                            <h2>Estudios ergonómicos</h2>
+                            <h2><?php echo $lang['ESTUDIOSERGONOMICOS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -32,7 +32,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-area-chart"></i>
-                            <h2>Aplicaciones gráficas</h2>
+                            <h2><?php echo $lang['APLICACIONESGRAFICAS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -40,7 +40,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-paint-brush"></i>
-                            <h2>Color & Trim</h2>
+                            <h2><?php echo $lang['COLORTRIM']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -48,7 +48,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cube"></i>
-                            <h2>Modelado 3D y realidad virtual</h2>
+                            <h2><?php echo $lang['MODELADO3D']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -56,7 +56,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-list-ul"></i>
-                            <h2>Dirección prototipos y modelos</h2>
+                            <h2><?php echo $lang['DIRECCIONPROTOTIPOS']; ?></h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->

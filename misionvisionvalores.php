@@ -1,6 +1,6 @@
 <?php
     require_once("translate_title.php");
-    $title = $title_lang['MENU_MISIONVISIONVALORES'];
+    $title = $title_lang['TITLE_MISIONVISIONVALORES'];
     $menu = 4;
     require_once("header.php");
 ?>
@@ -8,9 +8,9 @@
        <div class="container">
             <div class="center wow fadeInDown">
                 <h2><?php echo $title_lang['TITLE_MISION']; ?></h2>
-                <p class="lead"><b>Integral Design & Development, S.A.</b> realiza su actividad en el desarrollo de productos industriales desde el concepto hasta la fabricación, con la finalidad de conseguir los objetivos de nuestros clientes mediante eficacia, cumplimiento del tiempo fijado y con criterios de competitividad, asegurando la confidencialidad.</p>
-                <p class="lead">La sinergia entre -diseño, ingeniería y fabricación- la investigación y la vocación de servicio a la industria, son nuestros principios. Nuestro valor añadido es la creatividad del diseño industrial como elemento diferencial.</p>
-                <p class="lead">Nuestro mayor orgullo es la fidelización de nuestros clientes, manifestada en los nuevos retos de negocio dentro de la industria. Somos conscientes de mejorar continuamente, día a día, para alcanzar la satisfacción del cliente que es nuestro principal objetivo.﻿</p>
+                <p class="lead"><?php echo $lang['INTRODUCTION1']; ?></p>
+                <p class="lead"><?php echo $lang['INTRODUCTION2']; ?></p>
+                <p class="lead"><?php echo $lang['INTRODUCTION3']; ?></p>
             </div>
 
             <div class="row">

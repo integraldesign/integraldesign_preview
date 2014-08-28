@@ -31,6 +31,7 @@
 	$title_lang['TITLE_CONTACTO'] = 'Contact us';
 	$title_lang['TITLE_DONDE'] = 'Where are we?';
 	$title_lang['TITLE_METODOLOGIA'] = 'Success oriented methodology';
+	$title_lang['TITLE_MISIONVISIONVALORES'] = 'Mission, Vision and Values';
 	$title_lang['TITLE_MISION'] = 'Mission';
 	$title_lang['TITLE_VISION'] = 'Vision';
 	$title_lang['TITLE_VALORES'] = 'Values';

@@ -12,7 +12,7 @@
 	$title_lang['MENU_INICIO'] = 'Inicio';
 	$title_lang['MENU_PORQUE'] = 'Porqué';
 	$title_lang['MENU_ORIGEN'] = 'Origen';
-	$title_lang['MENU_MISIONVISIONVALORES'] = 'Misión, visión y valores';
+	$title_lang['MENU_MISIONVISIONVALORES'] = 'Misión, visión y<br>valores';
 	$title_lang['MENU_METODOLOGIA'] = 'Metodología orientada<br>al éxito';
 	$title_lang['MENU_COMO'] = 'Como';
 	$title_lang['MENU_DISENO'] = 'Diseño';
