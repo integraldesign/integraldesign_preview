@@ -13,22 +13,22 @@
         
 
             <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">Todos los trabajos</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".espana">España</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".portugal">Portugal</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".chile">Chile</a></li>
+                <li><a class="btn btn-default active" href="#" data-filter="*"><?php echo $lang['TODOSTRABAJOS']; ?></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".espana"><?php echo $lang['ESPANA']; ?></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".istambul"><?php echo $lang['ISTAMBUL']; ?></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".colombia"><?php echo $lang['COLOMBIA']; ?></a></li>
             </ul><!--/#portfolio-filter-->
 
             <div class="row">
                 <div class="portfolio-items">
                     <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 1</a></h3>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 1</a></h3>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>
@@ -36,90 +36,90 @@
 
                     <div class="portfolio-item espana bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 2</a></h3>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 2</a></h3>
                                     <p>España There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item bootstrap chile col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap colombia col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 3</a></h3>
-                                    <p>Chile There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 3</a></h3>
+                                    <p>Colombia There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>        
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item espana chile apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item espana colombia apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 4</a></h3>
-                                    <p>España | Chile There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_FERROVIARIO']; ?> 4</a></h3>
+                                    <p>España | Colombia There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>           
                     </div><!--/.portfolio-item-->
           
-                    <div class="portfolio-item espana portugal bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item istambul bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 5</a></h3>
-                                    <p>España | Portugal There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 5</a></h3>
+                                    <p>Istambul There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>      
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item chile portugal apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item colombia istambul apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 6</a></h3>
-                                    <p>Portugal | Chile There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 6</a></h3>
+                                    <p>Istambul | Colombia There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>         
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item chile portugal col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item colombia istambul col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta9.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 7</a></h3>
-                                    <p>Portugal | Chile There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 7</a></h3>
+                                    <p>Istambul | Colombia There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="images/portfolio/full/maqueta/maqueta9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item chile portugal bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item colombia bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta13.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Automoción 8</a></h3>
-                                    <p>Portugal | Chile There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <h3><a href="#"><?php echo $title_lang['MENU_AUTOMOCION']; ?> 8</a></h3>
+                                    <p>Colombia There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="images/portfolio/full/maqueta/maqueta13.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                                 </div> 
                             </div>
                         </div>          

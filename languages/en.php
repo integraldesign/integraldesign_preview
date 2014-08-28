@@ -39,6 +39,12 @@
 	$lang['INTRODUCTION2'] = 'The synergy between I design, engineering and manufacturing-research and dedication to service to the industry, are our principles. Our added value is the creative industrial design as a differentiator.';
 	$lang['INTRODUCTION3'] = 'Our greatest pride is the loyalty of our customers, manifested in the new business challenges within the industry. We are aware of continually improving day by day, to achieve customer satisfaction is our main goal.';
 
+	// Metodología
+	$lang['ANALISISPRODUCTO'] = 'Product analysis';
+	$lang['ESTUDIOSMERCADO'] = 'Market research';
+	$lang['CONCEPTUALIZACION'] = 'Theoretical and formal conceptualization';
+	$lang['ESTUDIOTARGET'] = 'Study of target';
+
 	// Diseño
 	$lang['CARACTERIZACION'] = 'Characterization outer and inner product';
 	$lang['ESTUDIOSERGONOMICOS'] = 'Ergonomic studies';

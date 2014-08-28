@@ -19,7 +19,7 @@
                             <img class="img-responsive" src="images/services/services1.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Análisis del producto</h3>
+                            <h3 class="media-heading"><?php echo $lang['ANALISISPRODUCTO']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                             <img class="img-responsive" src="images/services/services2.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Análisis del producto</h3>
+                            <h3 class="media-heading"><?php echo $lang['ESTUDIOSMERCADO']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                             <img class="img-responsive" src="images/services/services3.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Análisis del producto</h3>
+                            <h3 class="media-heading"><?php echo $lang['CONCEPTUALIZACION']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             <img class="img-responsive" src="images/services/services4.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Análisis del producto</h3>
+                            <h3 class="media-heading"><?php echo $lang['ESTUDIOTARGET']; ?></h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
