@@ -89,5 +89,7 @@
 	$lang['NUESTROSPARTNERS'] = 'Nuestros partners';
 	$lang['TERMINOSDEUSO'] = 'Términos de uso';
 	$lang['POLITICAPRIVACIDAD'] = 'Política de privacidad';
+	$lang['DISENOPOR'] = 'Diseño por';
+	$lang['TODOSDERECHOS'] = 'Todos los derechos reservados';
 
 ?>

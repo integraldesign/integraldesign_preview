@@ -16,6 +16,10 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -49,12 +53,12 @@
                                 <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 <li><a href="#"><i class="fa fa-skype"></i></a></li>
                             </ul>
-                            <div class="search">
+                            <!-- <div class="search">
                                 <form role="form">
                                     <input type="text" class="search-form" autocomplete="off" placeholder="<?php echo $lang['BUSCAR']; ?>">
                                     <i class="fa fa-search"></i>
                                 </form>
-                           </div>
+                           </div> -->
                        </div>
                     </div>
                 </div>

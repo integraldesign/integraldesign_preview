@@ -18,8 +18,8 @@
 						<area shape="poly" coords="700,410,721,457,927,394,901,346" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
 						<area shape="poly" coords="463,230,512,342,658,359,773,256,716,146,573,133" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
 						<area shape="poly" coords="282,325,296,365,479,308,458,277" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
-						<area shape="poly" coords="733,142,782,249,948,269,1035,177,974,69,833,56" data-toggle="modal" data-target="#ingieneria" href="#ingieneria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
-						<area shape="poly" coords="1011,107,1032,142,1305,66,1276,33" data-toggle="modal" data-target="#ingieneria" href="#ingieneria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
+						<area shape="poly" coords="733,142,782,249,948,269,1035,177,974,69,833,56" data-toggle="modal" data-target="#ingenieria" href="#ingenieria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
+						<area shape="poly" coords="1011,107,1032,142,1305,66,1276,33" data-toggle="modal" data-target="#ingenieria" href="#ingenieria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
 						<area shape="poly" coords="1058,179,964,271,1025,395,1190,415,1277,313,1200,196" data-toggle="modal" data-target="#preindustrializacion" href="#preindustrializacion" title="<?php echo $lang['PREINDUSTRIA']; ?>" alt="<?php echo $lang['PREINDUSTRIA']; ?>">
 						<area shape="poly" coords="1244,234,1271,275,1709,132,1669,90" data-toggle="modal" data-target="#preindustrializacion" href="#preindustrializacion" title="<?php echo $lang['PREINDUSTRIA']; ?>" alt="<?php echo $lang['PREINDUSTRIA']; ?>">
 						<area shape="poly" coords="1209,424,1291,556,1462,576,1545,461,1456,339,1297,321" data-toggle="modal" data-target="#maqueta" href="#maqueta" title="<?php echo $lang['MAQUETA']; ?>" alt="<?php echo $lang['MAQUETA']; ?>">
@@ -31,7 +31,19 @@
 			</div>
 		</div>
     </section><!--/#como-->
-
+	
+	<!-- Include js plugin -->
+	<script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+	    	$("#owl-concepto,#owl-diseno,#owl-ingenieria,#owl-preindustrializacion,#owl-maqueta,#owl-proyecto").owlCarousel({
+	    		autoPlay: 3000, //Set AutoPlay to 3 seconds
+	    		items : 3,
+	    		itemsDesktop : [1199,3],
+				itemsDesktopSmall : [979,3]
+	    	});
+	    });
+    </script>
     <!-- Modal Concepto -->
 	<div class="modal fade" id="concepto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
@@ -42,7 +54,47 @@
 	      </div>
 	      <div class="modal-body">
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-	        <p><img class="img-responsive" src="images/services/services1.png"></p>
+		    <div id="owl-concepto">
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+			    </div>
+		    </div>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['CERRAR']; ?></button>
@@ -62,7 +114,47 @@
 	      </div>
 	      <div class="modal-body">
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-	        <p><img class="img-responsive" src="images/services/services1.png"></p>
+	        <div id="owl-diseno">
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+			    </div>
+		    </div>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['CERRAR']; ?></button>
@@ -72,8 +164,8 @@
 	</div>
 	<!--/#Modal Diseño-->
 
-	<!-- Modal Ingieneria -->
-	<div class="modal fade" id="ingieneria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<!-- Modal Ingenieria -->
+	<div class="modal fade" id="ingenieria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -82,7 +174,44 @@
 	      </div>
 	      <div class="modal-body">
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-	        <p><img class="img-responsive" src="images/services/services1.png"></p>
+	        <div id="owl-ingenieria">
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria1.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria2.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria3.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria4.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria5.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria6.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria7.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria8.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria9.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria10.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria11.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/ingenieria/ingenieria12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria12.jpg" alt=""></a>
+			    </div>
+		    </div>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['CERRAR']; ?></button>
@@ -90,7 +219,7 @@
 	    </div>
 	  </div>
 	</div>
-	<!--/#Modal Ingieneria-->
+	<!--/#Modal Ingenieria-->
 
 	<!-- Modal Pre-Industrialización -->
 	<div class="modal fade" id="preindustrializacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -102,7 +231,47 @@
 	      </div>
 	      <div class="modal-body">
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-	        <p><img class="img-responsive" src="images/services/services1.png"></p>
+	        <div id="owl-preindustrializacion">
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+			    </div>
+		    </div>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['CERRAR']; ?></button>
@@ -122,7 +291,56 @@
 	      </div>
 	      <div class="modal-body">
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-	        <p><img class="img-responsive" src="images/services/services1.png"></p>
+	        <div id="owl-maqueta">
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta1.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta2.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta3.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta4.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta5.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta6.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta7.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta8.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta9.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta10.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta11.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta12.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta13.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta14.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta14.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta15.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta15.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/maqueta/maqueta16.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/maqueta/maqueta16.jpg" alt=""></a>
+			    </div>
+		    </div>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['CERRAR']; ?></button>
@@ -142,7 +360,47 @@
 	      </div>
 	      <div class="modal-body">
 	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-	        <p><img class="img-responsive" src="images/services/services1.png"></p>
+	        <div id="owl-proyecto">
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno1.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno1.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno2.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno2.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno3.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno3.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno4.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno4.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno5.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno5.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno6.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno6.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno7.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno7.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno8.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno8.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno9.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno9.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno10.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno10.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno11.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno11.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno12.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno12.jpg" alt=""></a>
+			    </div>
+			    <div class="item">
+					<a class="preview" href="images/portfolio/full/diseno/diseno13.jpg" rel="prettyPhoto"><img class="img-responsive" src="images/portfolio/recent/diseno/diseno13.jpg" alt=""></a>
+			    </div>
+		    </div>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $lang['CERRAR']; ?></button>
