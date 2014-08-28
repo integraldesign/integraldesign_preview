@@ -1,12 +1,13 @@
 <?php
-    $title = "Ingeniería";
+    require_once("translate_title.php");
+    $title = $title_lang['MENU_INGENIERIA'];
     $menu = 8;
     require_once("header.php");
 ?>
     <section id="feature" >
         <div class="container">
            <div class="center wow fadeInDown">
-                <h2><?php echo $lang['MENU_INGENIERIA']; ?></h2>
+                <h2><?php echo $title_lang['MENU_INGENIERIA']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
@@ -100,7 +101,7 @@
     <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2><?php echo $lang['ULTIMOSDISENOS']; ?> <?php echo $lang['DE']; ?> <?php echo $lang['MENU_INGENIERIA']; ?></h2>
+                <h2><?php echo $lang['ULTIMOSDISENOS']; ?> <?php echo $lang['DE']; ?> <?php echo $title_lang['MENU_INGENIERIA']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
@@ -110,7 +111,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria1.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 1</a> </h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 1</a> </h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -123,7 +124,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria2.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 2</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 2</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -136,7 +137,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria3.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 3</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 3</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -149,7 +150,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria4.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 4</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 4</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -162,7 +163,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria5.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 5</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 5</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -175,7 +176,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria6.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 6</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 6</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -188,7 +189,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria7.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 7</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 7</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -201,7 +202,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria8.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 8</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 8</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -214,7 +215,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria9.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 9</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 9</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -227,7 +228,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria10.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 10</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 10</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria10.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -240,7 +241,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria11.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 11</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 11</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria11.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -253,7 +254,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/ingenieria/ingenieria12.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['MENU_INGENIERIA']; ?> 12</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['MENU_INGENIERIA']; ?> 12</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/ingenieria/ingenieria12.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 

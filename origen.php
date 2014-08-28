@@ -1,12 +1,13 @@
 <?php
-    $title = "Origen";
+	require_once("translate_title.php");
+    $title = $title_lang['MENU_ORIGEN'];
     $menu = 3;
     require_once("header.php");
 ?>
     <section id="about-us">
         <div class="container">
 			<div class="center wow fadeInDown">
-				<h2><?php echo $lang['MENU_ORIGEN']; ?></h2>
+				<h2><?php echo $title_lang['MENU_ORIGEN']; ?></h2>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 			</div>
 			
@@ -47,7 +48,7 @@
 			<div class="skill-wrap clearfix">
 			
 				<div class="center wow fadeInDown">
-					<h2><?php echo $lang['MENU_ORIGEN']; ?></h2>
+					<h2><?php echo $title_lang['MENU_ORIGEN']; ?></h2>
 					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 				</div>
 				
@@ -66,7 +67,7 @@
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 							<div class="html-skill">                                  
 								<p><em>95%</em></p>
-								<p><?php echo $lang['MENU_DISENO']; ?></p>
+								<p><?php echo $title_lang['MENU_DISENO']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -75,7 +76,7 @@
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
 							<div class="css-skill">                                    
 								<p><em>80%</em></p>
-								<p><?php echo $lang['MENU_INGENIERIA']; ?></p>
+								<p><?php echo $title_lang['MENU_INGENIERIA']; ?></p>
 							</div>
 						</div>
 					</div>

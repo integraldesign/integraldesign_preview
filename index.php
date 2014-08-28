@@ -1,5 +1,6 @@
 <?php
-    $title = "Integral Design and Development";
+    require_once("translate_title.php");
+    $title = $title_lang['NOMBRE_EMPRESA'];
     $menu = 1;
     require_once("header.php");
 ?>

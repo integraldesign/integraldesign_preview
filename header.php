@@ -73,33 +73,33 @@
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li <?php if ($menu==1) {?>class="active"<?php } ?>><a href="index.php"><?php echo $lang['MENU_INICIO']; ?></a></li>
+                        <li <?php if ($menu==1) {?>class="active"<?php } ?>><a href="index.php"><?php echo $title_lang['MENU_INICIO']; ?></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['MENU_PORQUE']; ?> <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $title_lang['MENU_PORQUE']; ?> <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li <?php if ($menu==3) {?>class="active"<?php } ?>><a href="origen.php"><?php echo $lang['MENU_ORIGEN']; ?></a></li>
-                                <li <?php if ($menu==4) {?>class="active"<?php } ?>><a href="misionvisionvalores.php"><?php echo $lang['MENU_MISIONVISIONVALORES']; ?></a></li>
-                                <li <?php if ($menu==5) {?>class="active"<?php } ?>><a href="metodologia.php"><?php echo $lang['MENU_METODOLOGIA']; ?></a></li>
+                                <li <?php if ($menu==3) {?>class="active"<?php } ?>><a href="origen.php"><?php echo $title_lang['MENU_ORIGEN']; ?></a></li>
+                                <li <?php if ($menu==4) {?>class="active"<?php } ?>><a href="misionvisionvalores.php"><?php echo $title_lang['MENU_MISIONVISIONVALORES']; ?></a></li>
+                                <li <?php if ($menu==5) {?>class="active"<?php } ?>><a href="metodologia.php"><?php echo $title_lang['MENU_METODOLOGIA']; ?></a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['MENU_COMO']; ?> <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $title_lang['MENU_COMO']; ?> <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li <?php if ($menu==7) {?>class="active"<?php } ?>><a href="diseno.php"><?php echo $lang['MENU_DISENO']; ?></a></li>
-                                <li <?php if ($menu==8) {?>class="active"<?php } ?>><a href="ingenieria.php"><?php echo $lang['MENU_INGENIERIA']; ?></a></li>
-                                <li <?php if ($menu==9) {?>class="active"<?php } ?>><a href="maquetas.php"><?php echo $lang['MENU_MAQUETAS']; ?></a></li>
-                                <li <?php if ($menu==10) {?>class="active"<?php } ?>><a href="id.php"><?php echo $lang['MENU_ID']; ?></a></li>
+                                <li <?php if ($menu==7) {?>class="active"<?php } ?>><a href="diseno.php"><?php echo $title_lang['MENU_DISENO']; ?></a></li>
+                                <li <?php if ($menu==8) {?>class="active"<?php } ?>><a href="ingenieria.php"><?php echo $title_lang['MENU_INGENIERIA']; ?></a></li>
+                                <li <?php if ($menu==9) {?>class="active"<?php } ?>><a href="maquetas.php"><?php echo $title_lang['MENU_MAQUETAS']; ?></a></li>
+                                <li <?php if ($menu==10) {?>class="active"<?php } ?>><a href="id.php"><?php echo $title_lang['MENU_ID']; ?></a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['MENU_QUE']; ?> <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $title_lang['MENU_QUE']; ?> <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li <?php if ($menu==12) {?>class="active"<?php } ?>><a href="ferroviario.php"><?php echo $lang['MENU_FERROVIARIO']; ?></a></li>
-                                <li <?php if ($menu==13) {?>class="active"<?php } ?>><a href="automocion.php"><?php echo $lang['MENU_AUTOMOCION']; ?></a></li>
-                                <li <?php if ($menu==14) {?>class="active"<?php } ?>><a href="dispositivoselectronicos.php"><?php echo $lang['MENU_DISPELEC']; ?></a></li>
+                                <li <?php if ($menu==12) {?>class="active"<?php } ?>><a href="ferroviario.php"><?php echo $title_lang['MENU_FERROVIARIO']; ?></a></li>
+                                <li <?php if ($menu==13) {?>class="active"<?php } ?>><a href="automocion.php"><?php echo $title_lang['MENU_AUTOMOCION']; ?></a></li>
+                                <li <?php if ($menu==14) {?>class="active"<?php } ?>><a href="dispositivoselectronicos.php"><?php echo $title_lang['MENU_DISPELEC']; ?></a></li>
                             </ul>
                         </li>
-                        <li <?php if ($menu==15) {?>class="active"<?php } ?>><a href="donde.php"><?php echo $lang['MENU_DONDE']; ?></a></li>
+                        <li <?php if ($menu==15) {?>class="active"<?php } ?>><a href="donde.php"><?php echo $title_lang['MENU_DONDE']; ?></a></li>
                     </ul>
                 </div>
             </div><!--/.container-->

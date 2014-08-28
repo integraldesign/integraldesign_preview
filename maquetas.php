@@ -1,12 +1,13 @@
 <?php
-    $title = "Maquetas";
+    require_once("translate_title.php");
+    $title = $title_lang['MENU_MAQUETAS'];
     $menu = 9;
     require_once("header.php");
 ?>
     <section id="services" class="service-item">
        <div class="container">
             <div class="center wow fadeInDown">
-                <h2><?php echo $lang['MENU_MAQUETAS']; ?></h2>
+                <h2><?php echo $title_lang['MENU_MAQUETAS']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
@@ -92,7 +93,7 @@
             <section id="recent-works">
                 <div class="container">
                     <div class="center wow fadeInDown">
-                        <h2>Últimás maquetas</h2>
+                        <h2><?php echo $lang['ULTIMASMAQUETAS']; ?></h2>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
                     </div>
 
@@ -270,15 +271,15 @@
             </section><!--/#recent-works-->
 
             <div class="get-started center wow fadeInDown">
-                <h2>Solicite tu diseño</h2>
+                <h2><?php echo $lang['SOLICITE'] . ' ' . strtolower($lang['MAQUETA']); ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. <br>  Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
                 <div class="request">
-                    <h4><a href="#">Solicité su presupuesto</a></h4>
+                    <h4><a href="#"><?php echo $lang['SOLICITE'] . ' ' . strtolower($lang['PRESUPUESTO']); ?></a></h4>
                 </div>
             </div><!--/.get-started-->
 
             <div class="clients-area center wow fadeInDown">
-                <h2>¿Qué opinan nuestros clientes?</h2>
+                <h2><?php echo $lang['QUEOPINAN']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 

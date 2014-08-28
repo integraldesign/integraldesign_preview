@@ -5,37 +5,10 @@
 	------------------
 	*/
 	$lang = array();
+
 	$lang['HTML_LANG'] = 'es';
-	$lang['NOMBRE_EMPRESA'] = 'Integral Design and Development';
 	$lang['TITULO_WEB'] = 'Diseño Industrial - Ingeniería y desarrollo de producto | Empresa de diseño e ingeniería. Desarrollo de proyectos industriales desde el concepto hasta la fabricación';
 	$lang['BUSCAR'] = 'Buscar';
-
-	// Menus
-	$lang['MENU_INICIO'] = 'Inicio';
-	$lang['MENU_PORQUE'] = 'Porqué';
-	$lang['MENU_ORIGEN'] = 'Origen';
-	$lang['MENU_MISIONVISIONVALORES'] = 'Misión, visión y valores';
-	$lang['MENU_METODOLOGIA'] = 'Metodología orientada<br>al éxito';
-	$lang['MENU_COMO'] = 'Como';
-	$lang['MENU_DISENO'] = 'Diseño';
-	$lang['MENU_INGENIERIA'] = 'Ingeniería';
-	$lang['MENU_MAQUETAS'] = 'Maquetas';
-	$lang['MENU_ID'] = 'I+D';
-	$lang['MENU_QUE'] = 'Qué';
-	$lang['MENU_FERROVIARIO'] = 'Ferroviario';
-	$lang['MENU_AUTOMOCION'] = 'Automoción';
-	$lang['MENU_DISPELEC'] = 'Dispositivos electrónicos';
-	$lang['MENU_DONDE'] = 'Donde';
-	$lang['MENU_NOSOTROS'] = 'Nosotros';
-	$lang['MENU_CONTACTO'] = 'Contacto';
-
-	// Títulos de página
-	$lang['TITLE_CONTACTO'] = 'Contacta con nosotros';
-	$lang['TITLE_DONDE'] = '¿Donde estamos?';
-	$lang['TITLE_METODOLOGIA'] = 'Metodología orientada al éxito';
-	$lang['TITLE_MISION'] = 'Misión';
-	$lang['TITLE_VISION'] = 'Visión';
-	$lang['TITLE_VALORES'] = 'Valores';
 
 	// Palabras clave
 	$lang['CONCEPTO'] = 'Concepto';
@@ -47,8 +20,34 @@
 	$lang['SEGUIRLEYENDO'] = 'Seguir leyendo';
 	$lang['VER'] = 'Ver';
 	$lang['DE'] = 'de';
+	$lang['PRESUPUESTO'] = 'Presupuesto';
+	$lang['ESPANA'] = 'España';
+	$lang['ISTAMBUL'] = 'Istambul';
+	$lang['COLOMBIA'] = 'Colombia';
+
+	// Frases
+	$lang['QUEOPINAN'] = '¿Qué opinan nuestros clientes?';
+	$lang['SOLICITE'] = 'Solicite su';
+	$lang['TODOSTRABAJOS'] = 'Todos los trabajos';
 
 	// Portfolio
 	$lang['ULTIMOSDISENOS'] = 'Últimos diseños';
+	$lang['ULTIMASMAQUETAS'] = 'Últimas maquetas';
+
+	// Contacto
+	$lang['NOMBRE'] = 'Nombre';
+	$lang['CORREOELECTRONICO'] = 'Correo electrónico';
+	$lang['EMPRRESA'] = 'Empresa';
+	$lang['ASUNTO'] = 'Asunto';
+	$lang['MENSAJE'] = 'Mensaje';
+	$lang['ENVIARMENSAJE'] = 'Enviar mensaje';
+	$lang['TELEFONO'] = 'Teléfono';
+	$lang['DEPCOMERCIAL'] = 'Departamento comercial';
+	$lang['NUEVOSMERCADOS'] = 'Nuevos mercados';
+
+	// Pié de página
+	$lang['NUESTROSPARTNERS'] = 'Nuestros partners';
+	$lang['TERMINOSDEUSO'] = 'Términos de uso';
+	$lang['POLITICAPRIVACIDAD'] = 'Política de privacidad';
 	
 ?>

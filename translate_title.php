@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	header('Cache-control: private'); // IE 6 FIX
 	if(isSet($_GET['lang'])){
 		$lang = $_GET['lang'];
@@ -14,16 +15,16 @@
 	}
 	switch ($lang) {
 		case 'es':
-			$lang_file = 'es.php';
+			$lang_file = 'title.es.php';
 			break;
 		case 'en':
-			$lang_file = 'en.php';
+			$lang_file = 'title.en.php';
 			break;
 		case 'ru':
-			$lang_file = 'ru.php';
+			$lang_file = 'title.ru.php';
 			break;
 		default:
-			$lang_file = 'es.php';
+			$lang_file = 'title.es.php';
 	}
 	include_once 'languages/'.$lang_file;
 ?>

@@ -1,12 +1,13 @@
 <?php
-    $title = "Misión, visión y valores";
+    require_once("translate_title.php");
+    $title = $title_lang['MENU_MISIONVISIONVALORES'];
     $menu = 4;
     require_once("header.php");
 ?>
     <section id="services" class="service-item">
        <div class="container">
             <div class="center wow fadeInDown">
-                <h2><?php echo $lang['TITLE_MISION']; ?></h2>
+                <h2><?php echo $title_lang['TITLE_MISION']; ?></h2>
                 <p class="lead"><b>Integral Design & Development, S.A.</b> realiza su actividad en el desarrollo de productos industriales desde el concepto hasta la fabricación, con la finalidad de conseguir los objetivos de nuestros clientes mediante eficacia, cumplimiento del tiempo fijado y con criterios de competitividad, asegurando la confidencialidad.</p>
                 <p class="lead">La sinergia entre -diseño, ingeniería y fabricación- la investigación y la vocación de servicio a la industria, son nuestros principios. Nuestro valor añadido es la creatividad del diseño industrial como elemento diferencial.</p>
                 <p class="lead">Nuestro mayor orgullo es la fidelización de nuestros clientes, manifestada en los nuevos retos de negocio dentro de la industria. Somos conscientes de mejorar continuamente, día a día, para alcanzar la satisfacción del cliente que es nuestro principal objetivo.﻿</p>
@@ -20,7 +21,7 @@
                             <img class="img-responsive" src="images/services/services1.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><?php echo $lang['TITLE_MISION']; ?> 1</h3>
+                            <h3 class="media-heading"><?php echo $title_lang['TITLE_MISION']; ?> 1</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -32,7 +33,7 @@
                             <img class="img-responsive" src="images/services/services2.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><?php echo $lang['TITLE_MISION']; ?> 2</h3>
+                            <h3 class="media-heading"><?php echo $title_lang['TITLE_MISION']; ?> 2</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -44,7 +45,7 @@
                             <img class="img-responsive" src="images/services/services3.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><?php echo $lang['TITLE_MISION']; ?> 3</h3>
+                            <h3 class="media-heading"><?php echo $title_lang['TITLE_MISION']; ?> 3</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -56,7 +57,7 @@
                             <img class="img-responsive" src="images/services/services4.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><?php echo $lang['TITLE_MISION']; ?> 4</h3>
+                            <h3 class="media-heading"><?php echo $title_lang['TITLE_MISION']; ?> 4</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -68,7 +69,7 @@
                             <img class="img-responsive" src="images/services/services5.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><?php echo $lang['TITLE_MISION']; ?> 5</h3>
+                            <h3 class="media-heading"><?php echo $title_lang['TITLE_MISION']; ?> 5</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -80,7 +81,7 @@
                             <img class="img-responsive" src="images/services/services6.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><?php echo $lang['TITLE_MISION']; ?> 6</h3>
+                            <h3 class="media-heading"><?php echo $title_lang['TITLE_MISION']; ?> 6</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -92,7 +93,7 @@
     <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2><?php echo $lang['TITLE_VISION']; ?></h2>
+                <h2><?php echo $title_lang['TITLE_VISION']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
@@ -102,7 +103,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 1 </a> </h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 1 </a> </h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -115,7 +116,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 2 </a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 2 </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -128,7 +129,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 3 </a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 3 </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -141,7 +142,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 4 </a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 4 </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -154,7 +155,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 5</a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 5</a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -167,7 +168,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 6 </a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 6 </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -180,7 +181,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 7 </a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 7 </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -193,7 +194,7 @@
                         <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><?php echo $lang['TITLE_VISION']; ?> 8 </a></h3>
+                                <h3><a href="#"><?php echo $title_lang['TITLE_VISION']; ?> 8 </a></h3>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
                                 <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo $lang['VER']; ?></a>
                             </div> 
@@ -207,7 +208,7 @@
      <section id="feature" >
         <div class="container">
            <div class="center wow fadeInDown">
-                <h2><?php echo $lang['TITLE_VALORES']; ?></h2>
+                <h2><?php echo $title_lang['TITLE_VALORES']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
@@ -216,7 +217,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-bullhorn"></i>
-                            <h2><?php echo $lang['TITLE_VALORES']; ?> 1</h2>
+                            <h2><?php echo $title_lang['TITLE_VALORES']; ?> 1</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -224,7 +225,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-comments"></i>
-                            <h2><?php echo $lang['TITLE_VALORES']; ?> 2</h2>
+                            <h2><?php echo $title_lang['TITLE_VALORES']; ?> 2</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -232,7 +233,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cloud-download"></i>
-                            <h2><?php echo $lang['TITLE_VALORES']; ?> 3</h2>
+                            <h2><?php echo $title_lang['TITLE_VALORES']; ?> 3</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -240,7 +241,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-leaf"></i>
-                            <h2><?php echo $lang['TITLE_VALORES']; ?> 4</h2>
+                            <h2><?php echo $title_lang['TITLE_VALORES']; ?> 4</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -248,7 +249,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cogs"></i>
-                            <h2><?php echo $lang['TITLE_VALORES']; ?> 5</h2>
+                            <h2><?php echo $title_lang['TITLE_VALORES']; ?> 5</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -256,7 +257,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-heart"></i>
-                            <h2><?php echo $lang['TITLE_VALORES']; ?> 6</h2>
+                            <h2><?php echo $title_lang['TITLE_VALORES']; ?> 6</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
                     </div><!--/.col-md-4-->

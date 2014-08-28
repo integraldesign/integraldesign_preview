@@ -5,37 +5,10 @@
 	------------------
 	*/
 	$lang = array();
+
 	$lang['HTML_LANG'] = 'ru';
-	$lang['NOMBRE_EMPRESA'] = 'Integral Design and Development';
 	$lang['TITULO_WEB'] = 'Diseño Industrial - Ingeniería y desarrollo de producto | Empresa de diseño e ingeniería. Desarrollo de proyectos industriales desde el concepto hasta la fabricación';
 	$lang['BUSCAR'] = 'Искать';
-
-	// Menus
-	$lang['MENU_INICIO'] = 'Главная';
-	$lang['MENU_PORQUE'] = 'Почему';
-	$lang['MENU_ORIGEN'] = 'Происхождение';
-	$lang['MENU_MISIONVISIONVALORES'] = 'Миссия, видение и<br>ценности';
-	$lang['MENU_METODOLOGIA'] = 'Успех ориентированная<br>методология';
-	$lang['MENU_COMO'] = 'Как приходят';
-	$lang['MENU_DISENO'] = 'Дизайн';
-	$lang['MENU_INGENIERIA'] = 'Инжиниринг';
-	$lang['MENU_MAQUETAS'] = 'Модели';
-	$lang['MENU_ID'] = 'I+D';
-	$lang['MENU_QUE'] = 'Что';
-	$lang['MENU_FERROVIARIO'] = 'Железнодорожный';
-	$lang['MENU_AUTOMOCION'] = 'Автомобильная';
-	$lang['MENU_DISPELEC'] = 'Электронные устройства';
-	$lang['MENU_DONDE'] = 'Где';
-	$lang['MENU_NOSOTROS'] = 'Мы';
-	$lang['MENU_CONTACTO'] = 'Связаться';
-
-	// Títulos de página
-	$lang['TITLE_CONTACTO'] = 'Связаться с нами';
-	$lang['TITLE_DONDE'] = 'Где мы?';
-	$lang['TITLE_METODOLOGIA'] = 'Успех ориентированная методология';
-	$lang['TITLE_MISION'] = 'Миссия';
-	$lang['TITLE_VISION'] = 'Видение';
-	$lang['TITLE_VALORES'] = 'Значения';
 
 	// Palabras clave
 	$lang['CONCEPTO'] = 'Концепция';
@@ -47,7 +20,34 @@
 	$lang['SEGUIRLEYENDO'] = 'Продолжить чтение';
 	$lang['VER'] = 'Посмотреть';
 	$lang['DE'] = 'из';
+	$lang['PRESUPUESTO'] = 'Бюджет';
+	$lang['ESPANA'] = 'Испания';
+	$lang['ISTAMBUL'] = 'Стамбул';
+	$lang['COLOMBIA'] = 'Колумбия';
+
+	// Frases
+	$lang['QUEOPINAN'] = 'Что говорят наши клиенты?';
+	$lang['SOLICITE'] = 'заявки на приобретение';
+	$lang['TODOSTRABAJOS'] = 'Все вакансии';
 
 	// Portfolio
 	$lang['ULTIMOSDISENOS'] = 'Последние проекты';
+	$lang['ULTIMASMAQUETAS'] = 'Последние модели';
+
+	// Contacto
+	$lang['NOMBRE'] = 'Имя';
+	$lang['CORREOELECTRONICO'] = 'E-mail';
+	$lang['EMPRRESA'] = 'Компания';
+	$lang['ASUNTO'] = 'Тема';
+	$lang['MENSAJE'] = 'Сообщение';
+	$lang['ENVIARMENSAJE'] = 'Отправить сообщение';
+	$lang['TELEFONO'] = 'Телефон';
+	$lang['DEPCOMERCIAL'] = 'Бизнес-департамент';
+	$lang['NUEVOSMERCADOS'] = 'Новые рынки';
+
+	// Pié de página
+	$lang['NUESTROSPARTNERS'] = 'Наши партнеры';
+	$lang['TERMINOSDEUSO'] = 'Правила пользования';
+	$lang['POLITICAPRIVACIDAD'] = 'Политика конфиденциальности';
+
 ?>

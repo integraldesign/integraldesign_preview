@@ -1,12 +1,13 @@
 <?php
-    $title = "Metodología orientada al éxito";
+    require_once("translate_title.php");
+    $title = $title_lang['TITLE_METODOLOGIA'];
     $menu = 5;
     require_once("header.php");
 ?>
     <section id="services" class="service-item">
        <div class="container">
             <div class="center wow fadeInDown">
-                <h2><?php echo $lang['TITLE_METODOLOGIA']; ?></h2>
+                <h2><?php echo $title_lang['TITLE_METODOLOGIA']; ?></h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 

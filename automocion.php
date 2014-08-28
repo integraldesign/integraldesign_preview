@@ -1,12 +1,13 @@
 <?php
-    $title = "Automoción";
+    require_once("translate_title.php");
+    $title = $title_lang['MENU_AUTOMOCION'];
     $menu = 13;
     require_once("header.php");
 ?>
     <section id="portfolio">
         <div class="container">
             <div class="center">
-               <h2><?php echo $lang['MENU_AUTOMOCION']; ?></h2>
+               <h2><?php echo $title_lang['MENU_AUTOMOCION']; ?></h2>
                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
         

@@ -3,28 +3,28 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3><?php echo $lang['NOMBRE_EMPRESA']; ?></h3>
+                        <h3><?php echo $title_lang['NOMBRE_EMPRESA']; ?></h3>
                         <ul>
-                            <li><a href="nosotros.php"><?php echo $lang['MENU_NOSOTROS']; ?></a></li>
+                            <li><a href="nosotros.php"><?php echo $title_lang['MENU_NOSOTROS']; ?></a></li>
                             <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Términos de uso</a></li>
-                            <li><a href="#">Política de privacidad</a></li>
-                            <li><a href="contacto.php"><?php echo $lang['MENU_CONTACTO']; ?></a></li>
+                            <li><a href="#"><?php echo $lang['TERMINOSDEUSO']; ?></a></li>
+                            <li><a href="#"><?php echo $lang['POLITICAPRIVACIDAD']; ?></a></li>
+                            <li><a href="contacto.php"><?php echo $title_lang['MENU_CONTACTO']; ?></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Nuestros Partners</h3>
+                        <h3><?php echo strtoupper($lang['NUESTROSPARTNERS']); ?></h3>
                         <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
+                            <li><a href="#">Adif</a></li>
+                            <li><a href="#">DB Bhan</a></li>
+                            <li><a href="#">Great Western Railway</a></li>
+                            <li><a href="#">Ferrocarriles Nacionales de Colombia</a></li>
+                            <li><a href="#">Japan Railways</a></li>
+                            <li><a href="#">Fertagus</a></li>
+                            <li><a href="#">FEVE</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -40,9 +40,9 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="index.php"><?php echo $lang['MENU_INICIO']; ?></a></li>
-                        <li><a href="nosotros.php"><?php echo $lang['MENU_NOSOTROS']; ?></a></li>
-                        <li><a href="donde.php"><?php echo $lang['MENU_DONDE']; ?></a></li>
+                        <li><a href="index.php"><?php echo $title_lang['MENU_INICIO']; ?></a></li>
+                        <li><a href="nosotros.php"><?php echo $title_lang['MENU_NOSOTROS']; ?></a></li>
+                        <li><a href="donde.php"><?php echo $title_lang['MENU_DONDE']; ?></a></li>
                     </ul>
                 </div>
             </div>

@@ -1,11 +1,12 @@
 <?php
-    $title = "Donde";
+    require_once("translate_title.php");
+    $title = $title_lang['TITLE_DONDE'];
     $menu = 15;
     require_once("header.php");
 ?>
     <section id="contact-info">
         <div class="center">                
-            <h2><?php echo $lang['TITLE_DONDE']; ?></h2>
+            <h2><?php echo $title_lang['TITLE_DONDE']; ?></h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </div>
         <div class="gmap-area">
@@ -21,19 +22,19 @@
                         <ul class="row">
                             <li class="col-sm-12">
                                 <address>
-                                    <h5>Integral Design And Development</h5>
+                                    <h5><?php echo $title_lang['NOMBRE_EMPRESA']; ?></h5>
                                     <p>Carrer d'Albert Einstein, 43<br>
                                     08940 Cornellà de Llobregat<br>
                                     P.l. Alameda<br>
-                                	Barcelona</p>
-                                    <p>Teléfono: 934 74 49 89 <br>
+                                    Barcelona</p>
+                                    <p><?php echo $lang['TELEFONO']; ?>: 934 74 49 89 <br>
                                     Fax: 934 74 13 00</p>
-                                    <p>Departamento Comercial: <a href="mailto:mferrer@integraldesign.es">Miquel Ferrer - mferrer@integraldesign.es</a><br>
-                                    Diseño: <a href="mailto:ftelechea@integraldesign.es">Fernando Telechea - ftelechea@integraldesign.es</a><br>
-                                    Ingienería: <a href="arosell:mferrer@integraldesign.es">Ana Rosell - arosell@integraldesign.es</a><br>
-                                    Maquetas: <a href="mailto:amartinez@integraldesign.es">Antonio Martínez - amartinez@integraldesign.es</a><br>
-                                    Nuevos mercados: <a href="mailto:dromero@integraldesign.es">Daniel Romero - dromero@integraldesign.es</a><br>
-                                	</p>
+                                    <p><?php echo $lang['DEPCOMERCIAL']; ?>: <a href="mailto:mferrer@integraldesign.es">Miquel Ferrer - mferrer@integraldesign.es</a><br>
+                                    <?php echo $title_lang['MENU_DISENO']; ?>: <a href="mailto:ftelechea@integraldesign.es">Fernando Telechea - ftelechea@integraldesign.es</a><br>
+                                    <?php echo $title_lang['MENU_INGENIERIA']; ?>: <a href="arosell:mferrer@integraldesign.es">Ana Rosell - arosell@integraldesign.es</a><br>
+                                    <?php echo $title_lang['MENU_MAQUETAS']; ?>: <a href="mailto:amartinez@integraldesign.es">Antonio Martínez - amartinez@integraldesign.es</a><br>
+                                    <?php echo $lang['NUEVOSMERCADOS']; ?>: <a href="mailto:dromero@integraldesign.es">Daniel Romero - dromero@integraldesign.es</a><br>
+                                    </p>
                                 </address>
                             </li>
                         </ul>

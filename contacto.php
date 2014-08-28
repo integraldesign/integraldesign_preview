@@ -1,11 +1,12 @@
 <?php
-    $title = "Contacto";
+    require_once("translate_title.php");
+    $title = $title_lang['TITLE_CONTACTO'];
     require_once("header.php");
 ?>
     <section id="contact-page">
         <div class="container">
             <div class="center">        
-                <h2><?php echo $lang['TITLE_CONTACTO']; ?></h2>
+                <h2><?php echo $title_lang['TITLE_CONTACTO']; ?></h2>
                 <p class="lead">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> 
             <div class="row contact-wrap"> 
@@ -17,29 +18,29 @@
                             <input type="text" name="name" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Correo electrónico *</label>
+                            <label><?php echo $lang['CORREOELECTRONICO']; ?> *</label>
                             <input type="email" name="email" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Teléfono</label>
+                            <label><?php echo $lang['TELEFONO']; ?></label>
                             <input type="number" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label>Empresa</label>
+                            <label><?php echo $lang['EMPRRESA']; ?></label>
                             <input type="text" class="form-control">
                         </div>                        
                     </div>
                     <div class="col-sm-5">
                         <div class="form-group">
-                            <label>Asunto *</label>
+                            <label><?php echo $lang['ASUNTO']; ?> *</label>
                             <input type="text" name="subject" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Mensaje *</label>
+                            <label><?php echo $lang['MENSAJE']; ?> *</label>
                             <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
                         </div>                        
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensaje</button>
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required"><?php echo $lang['ENVIARMENSAJE']; ?></button>
                         </div>
                     </div>
                 </form> 
@@ -49,7 +50,7 @@
 
     <section id="contact-info">
         <div class="center">                
-            <h2>¿Donde estamos?</h2>
+            <h2><?php echo $title_lang['TITLE_DONDE']; ?></h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </div>
         <div class="gmap-area">
@@ -65,18 +66,18 @@
                         <ul class="row">
                             <li class="col-sm-12">
                                 <address>
-                                    <h5>Integral Design And Development</h5>
+                                    <h5><?php echo $title_lang['NOMBRE_EMPRESA']; ?></h5>
                                     <p>Carrer d'Albert Einstein, 43<br>
                                     08940 Cornellà de Llobregat<br>
                                     P.l. Alameda<br>
                                     Barcelona</p>
-                                    <p>Teléfono: 934 74 49 89 <br>
+                                    <p><?php echo $lang['TELEFONO']; ?>: 934 74 49 89 <br>
                                     Fax: 934 74 13 00</p>
-                                    <p>Departamento Comercial: <a href="mailto:mferrer@integraldesign.es">Miquel Ferrer - mferrer@integraldesign.es</a><br>
-                                    Diseño: <a href="mailto:ftelechea@integraldesign.es">Fernando Telechea - ftelechea@integraldesign.es</a><br>
-                                    Ingienería: <a href="arosell:mferrer@integraldesign.es">Ana Rosell - arosell@integraldesign.es</a><br>
-                                    Maquetas: <a href="mailto:amartinez@integraldesign.es">Antonio Martínez - amartinez@integraldesign.es</a><br>
-                                    Nuevos mercados: <a href="mailto:dromero@integraldesign.es">Daniel Romero - dromero@integraldesign.es</a><br>
+                                    <p><?php echo $lang['DEPCOMERCIAL']; ?>: <a href="mailto:mferrer@integraldesign.es">Miquel Ferrer - mferrer@integraldesign.es</a><br>
+                                    <?php echo $title_lang['MENU_DISENO']; ?>: <a href="mailto:ftelechea@integraldesign.es">Fernando Telechea - ftelechea@integraldesign.es</a><br>
+                                    <?php echo $title_lang['MENU_INGENIERIA']; ?>: <a href="arosell:mferrer@integraldesign.es">Ana Rosell - arosell@integraldesign.es</a><br>
+                                    <?php echo $title_lang['MENU_MAQUETAS']; ?>: <a href="mailto:amartinez@integraldesign.es">Antonio Martínez - amartinez@integraldesign.es</a><br>
+                                    <?php echo $lang['NUEVOSMERCADOS']; ?>: <a href="mailto:dromero@integraldesign.es">Daniel Romero - dromero@integraldesign.es</a><br>
                                     </p>
                                 </address>
                             </li>
