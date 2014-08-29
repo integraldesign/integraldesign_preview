@@ -33,8 +33,8 @@
 			</div>
 		</div>
     </section><!--/#como-->
-	<script src="js/jquery.rwdImageMaps.js"></script>
-	<script src="js/jquery.maphilight.js"></script>
+	<script src="js/jquery.rwdImageMaps.min.js"></script>
+	<script src="js/jquery.maphilight.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(e) {
 			$('img[usemap]').rwdImageMaps();
