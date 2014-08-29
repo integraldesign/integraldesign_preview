@@ -33,7 +33,7 @@
     <script src="js/jquery.js"></script>
 </head><!--/head-->
 
-<body class="homepage">
+<body class="homepage"> 
     <header id="header">
         <div class="top-bar">
             <div class="container">
