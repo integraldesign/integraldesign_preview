@@ -4,34 +4,53 @@
     $menu = 6;
     require_once("header.php");
 ?>
-	<script src="js/jquery.rwdImageMaps.min.js"></script>
+	
 	<section id="como">
         <div class="container">
 			<div class="center wow fadeInDown">
 				<h2><?php echo $title_lang['MENU_COMO']; ?></h2>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 				<p>
-					<img usemap="#usemap" class="img-responsive" id="img-responsive" src="images/como/como.jpg" alt="">
-					<map name="usemap">
-						<area onmouseover="shadow('inicio');" onmouseout="reset();"; shape="poly" coords="213,451,73,567,113,705,280,731,416,607,367,468" href="index.php" title="<?php echo $title_lang['MENU_INICIO']; ?>" alt="<?php echo $title_lang['MENU_INICIO']; ?>">
-						<area shape="poly" coords="505,355,390,465,433,594,598,620,720,496,658,370" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
-						<area shape="poly" coords="700,410,721,457,927,394,901,346" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
-						<area shape="poly" coords="463,230,512,342,658,359,773,256,716,146,573,133" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
-						<area shape="poly" coords="282,325,296,365,479,308,458,277" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
-						<area shape="poly" coords="733,142,782,249,948,269,1035,177,974,69,833,56" data-toggle="modal" data-target="#ingenieria" href="#ingenieria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
-						<area shape="poly" coords="1011,107,1032,142,1305,66,1276,33" data-toggle="modal" data-target="#ingenieria" href="#ingenieria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
-						<area shape="poly" coords="1058,179,964,271,1025,395,1190,415,1277,313,1200,196" data-toggle="modal" data-target="#preindustrializacion" href="#preindustrializacion" title="<?php echo $lang['PREINDUSTRIA']; ?>" alt="<?php echo $lang['PREINDUSTRIA']; ?>">
-						<area shape="poly" coords="1244,234,1271,275,1709,132,1669,90" data-toggle="modal" data-target="#preindustrializacion" href="#preindustrializacion" title="<?php echo $lang['PREINDUSTRIA']; ?>" alt="<?php echo $lang['PREINDUSTRIA']; ?>">
-						<area shape="poly" coords="1209,424,1291,556,1462,576,1545,461,1456,339,1297,321" data-toggle="modal" data-target="#maqueta" href="#maqueta" title="<?php echo $lang['MAQUETA']; ?>" alt="<?php echo $lang['MAQUETA']; ?>">
-						<area shape="poly" coords="1004,549,1033,605,1242,525,1214,474" data-toggle="modal" data-target="#maqueta" href="#maqueta" title="<?php echo $lang['MAQUETA']; ?>" alt="<?php echo $lang['MAQUETA']; ?>">
-						<area shape="poly" coords="1287,574,1192,694,1277,854,1466,872,1553,732,1458,592" data-toggle="modal" data-target="#proyecto" href="#proyecto" title="<?php echo $lang['PROYECTOINTEGRA']; ?>" alt="<?php echo $lang['PROYECTOINTEGRA']; ?>">
-						<area shape="poly" coords="947,844,970,900,1205,811,1167,764" data-toggle="modal" data-target="#proyecto" href="#proyecto" title="<?php echo $lang['PROYECTOINTEGRA']; ?>" alt="<?php echo $lang['PROYECTOINTEGRA']; ?>">
-					</map>
+					<div id="wrap">
+						<img usemap="#usemap" src="images/como/como.jpg" alt="">
+						<map name="usemap">
+							<area shape="poly" coords="143,311,71,370,91,447,181,461,252,394,230,321" href="index.php" title="<?php echo $title_lang['MENU_INICIO']; ?>" alt="<?php echo $title_lang['MENU_INICIO']; ?>">
+							<area shape="poly" coords="271,308,298,378,385,391,448,330,418,258,337,250" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
+							<area shape="poly" coords="181,208,189,238,312,202,300,174" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
+							<area shape="poly" coords="375,103,321,153,344,217,426,228,479,170,454,111" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
+							<area shape="poly" coords="456,266,469,301,602,255,585,225" data-toggle="modal" data-target="#diseno" href="#diseno" title="<?php echo $title_lang['MENU_DISENO']; ?>" alt="<?php echo $title_lang['MENU_DISENO']; ?>">
+							<area shape="poly" coords="547,53,495,101,524,160,604,170,652,121,619,62" data-toggle="modal" data-target="#ingenieria" href="#ingenieria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
+							<area shape="poly" coords="656,64,671,94,847,41,826,9" data-toggle="modal" data-target="#ingenieria" href="#ingenieria" title="<?php echo $title_lang['MENU_INGENIERIA']; ?>" alt="<?php echo $title_lang['MENU_INGENIERIA']; ?>">
+							<area shape="poly" coords="688,137,640,187,678,251,761,262,811,208,771,143" data-toggle="modal" data-target="#preindustrializacion" href="#preindustrializacion" title="<?php echo $lang['PREINDUSTRIA']; ?>" alt="<?php echo $lang['PREINDUSTRIA']; ?>">
+							<area shape="poly" coords="813,149,828,182,1114,82,1087,57" data-toggle="modal" data-target="#preindustrializacion" href="#preindustrializacion" title="<?php echo $lang['PREINDUSTRIA']; ?>" alt="<?php echo $lang['PREINDUSTRIA']; ?>">
+							<area shape="poly" coords="850,227,803,282,846,359,932,365,981,304,932,234" data-toggle="modal" data-target="#maqueta" href="#maqueta" title="<?php echo $lang['MAQUETA']; ?>" alt="<?php echo $lang['MAQUETA']; ?>">
+							<area shape="poly" coords="655,357,670,396,806,338,791,312" data-toggle="modal" data-target="#maqueta" href="#maqueta" title="<?php echo $lang['MAQUETA']; ?>" alt="<?php echo $lang['MAQUETA']; ?>">
+							<area shape="poly" coords="843,394,794,462,836,540,936,554,986,482,935,403" data-toggle="modal" data-target="#proyecto" href="#proyecto" title="<?php echo $lang['PROYECTOINTEGRA']; ?>" alt="<?php echo $lang['PROYECTOINTEGRA']; ?>">
+							<area shape="poly" coords="615,549,633,585,778,530,761,497" data-toggle="modal" data-target="#proyecto" href="#proyecto" title="<?php echo $lang['PROYECTOINTEGRA']; ?>" alt="<?php echo $lang['PROYECTOINTEGRA']; ?>">
+						</map>
+					</div>
 				</p>
 			</div>
 		</div>
     </section><!--/#como-->
-	
+	<script src="js/jquery.rwdImageMaps.js"></script>
+	<script src="js/jquery.maphilight.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('img[usemap]').rwdImageMaps();
+			$('img[usemap]').maphilight({ stroke: false, fillColor: 'C52D2F', fillOpacity: 0.5 });
+		});
+		jQuery(window).bind('resize orientationchange', function(e) {
+			var windowWidth = $(window).width();
+			jQuery(window).resize(function(){
+				jQuery('img[usemap]').maphilight({ stroke: false, fillColor: 'C52D2F', fillOpacity: 0.5 });
+				if(windowWidth != $(window).width()){
+					location.reload();
+					return;
+				}
+			})
+		});
+	</script>
 	<!-- Include js plugin -->
 	<script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript">
@@ -43,12 +62,6 @@
 				itemsDesktopSmall : [979,3]
 	    	});
 	    });
-	    function shadow(name){
-	    	$('#img-responsive').attr("src", 'images/como/como' + name + '.jpg');
-	    };
-	    function reset(){
-	    	$('#img-responsive').attr("src", 'images/como/como.jpg');
-	    };
     </script>
     <!-- Modal Concepto -->
 	<div class="modal fade" id="concepto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
