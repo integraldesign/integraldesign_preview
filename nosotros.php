@@ -7,7 +7,14 @@
         <div class="container">
 			<div class="center wow fadeInDown">
 				<h2><?php echo $title_lang['MENU_NOSOTROS']; ?></h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+				<h3><?php echo $lang['NUESTROSTRABAJOS']; ?></h3>
+                <ul>
+                    <li><a href="http://www.slideshare.net/integraldesign/eurasia-rail-integral-design-lr" target="_blank">Eurasia Rail</a></li>
+                    <li><a href="http://it.spaziomondo.com/progetto_La_metropolitana_di_Istanbul.cfm" target="_blank">SpazioMondo</a></li>
+                    <li><a href="http://issuu.com/yorokobu/docs/16/43" target="_blank">Yorokobu - Estambul</a></li>
+                    <li><a href="http://www.yorokobu.es/las-condiciones-del-tranvia/" target="_blank">Yorokobu - Tranvía</a></li>
+                    <li><a href="http://www.railwaygazette.com/news/traction-rolling-stock/single-view/view/tver-unveils-proposed-emu.html" target="_blank">RailwayGazette – Tver presenta EMU para Rusia</a></li>
+                </ul>
 			</div>
 			
 			<!-- about us slider -->

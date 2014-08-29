@@ -18,13 +18,11 @@
                     <div class="widget">
                         <h3><?php echo strtoupper($lang['NUESTROSPARTNERS']); ?></h3>
                         <ul>
-                            <li><a href="#">Adif</a></li>
-                            <li><a href="#">DB Bhan</a></li>
-                            <li><a href="#">Great Western Railway</a></li>
-                            <li><a href="#">Ferrocarriles Nacionales de Colombia</a></li>
-                            <li><a href="#">Japan Railways</a></li>
-                            <li><a href="#">Fertagus</a></li>
-                            <li><a href="#">FEVE</a></li>
+                            <li><a href="http://www.railgrup.net" target="_blank">railgrup</a></li>
+                            <li><a href="http://www.navalia.es/" target="_blank">navalia</a></li>
+                            <li><a href="http://www.bcnrail.com/" target="_blank">BCN Rail</a></li>
+                            <li><a href="http://www.innotrans.de/" target="_blank">InnoTrans</a></li>
+                            <li><a href="http://www.vialibre-ffe.com/" target="_blank">Vía Libre</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->

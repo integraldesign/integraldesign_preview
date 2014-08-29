@@ -118,7 +118,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
         <?php if(empty($menu)){$menu = 1;} ?>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

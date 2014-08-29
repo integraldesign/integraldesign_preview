@@ -74,6 +74,9 @@
 	$lang['MONTAJESCONJUNTOS'] = 'Montajes conjuntos (cabinas, pupitres, cofres eléctricos, etc.)';
 	$lang['ASISTENCIATECNICA'] = 'Asistencia técnica a producción';
 
+	// Nosotros
+	$lang['NUESTROSTRABAJOS'] = 'Nuestros trabajos';
+
 	// Contacto
 	$lang['NOMBRE'] = 'Nombre';
 	$lang['CORREOELECTRONICO'] = 'Correo electrónico';

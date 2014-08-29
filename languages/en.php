@@ -36,43 +36,46 @@
 	$lang['ULTIMASMAQUETAS'] = "Latest mock-up's";
 
 	// Misión
-	$lang['INTRODUCTION1'] = '<b>Integral Design & Development, S.A.</b> carries on business in the development of industrial products from concept to manufacture, in order to achieve the objectives of our clients by effectively fulfilling the criteria set time and competitiveness, ensuring confidentiality.';
-	$lang['INTRODUCTION2'] = 'The synergy between I design, engineering and manufacturing-research and dedication to service to the industry, are our principles. Our added value is the creative industrial design as a differentiator.';
-	$lang['INTRODUCTION3'] = 'Our greatest pride is the loyalty of our customers, manifested in the new business challenges within the industry. We are aware of continually improving day by day, to achieve customer satisfaction is our main goal.';
+	$lang['INTRODUCTION1'] = '<b>Integral Design & Development, S.A.\'s</b> .’s business activity involves industrial product development from conception to manufacturing, in order to achieve the goals of our customers through effectiveness and compliance with established times and competitiveness criteria by ensuring confidentiality.';
+	$lang['INTRODUCTION2'] = 'The synergy between -design, engineering and manufacturing- research and a commitment to serving industry are our principles. Our added value is the creativity of industrial design as a distinguishing feature.';
+	$lang['INTRODUCTION3'] = 'Our greatest pride is the loyalty of our customers, demonstrated by new business challenges within the industry. We are aware of continuously improving, day by day, to achieve the customer satisfaction that is our main goal.';
 
 	// Metodología
 	$lang['ANALISISPRODUCTO'] = 'Product analysis';
 	$lang['ESTUDIOSMERCADO'] = 'Market research';
 	$lang['CONCEPTUALIZACION'] = 'Theoretical and formal conceptualization';
-	$lang['ESTUDIOTARGET'] = 'Study of target';
+	$lang['ESTUDIOTARGET'] = 'Target study';
 
 	// Diseño
-	$lang['CARACTERIZACION'] = 'Characterization outer and inner product';
+	$lang['CARACTERIZACION'] = 'Characterization of product exterior and interior';
 	$lang['ESTUDIOSERGONOMICOS'] = 'Ergonomic studies';
 	$lang['APLICACIONESGRAFICAS'] = 'Graphic applications';
 	$lang['COLORTRIM'] = 'Color & Trim';
 	$lang['MODELADO3D'] = '3D Modeling and virtual reality';
-	$lang['DIRECCIONPROTOTIPOS'] = 'Address prototypes and models';
+	$lang['DIRECCIONPROTOTIPOS'] = 'Prototype and model management';
 
 	// Ingeniería
 	$lang['PROYECTOSCOMPLETOS'] = 'Complete projects';
 	$lang['INSTRUCCIONESDEGRABAJO'] = 'Work instructions';
-	$lang['ESTUDIOSYMODELOS'] = 'Studies and 3D models, 2D drawings and mounting assemblies';
+	$lang['ESTUDIOSYMODELOS'] = '3D studies and models, 2D drawings and mounting assemblies';
 	$lang['ACABADOSDEINTERIORES'] = 'Interior finishes';
-	$lang['PLANNINGDEOPERACIONES'] = 'Operations planning';
-	$lang['MECANICAASISTENCIA'] = 'Mechanics, support assembly, tests and trials';
+	$lang['PLANNINGDEOPERACIONES'] = 'Operations Planning';
+	$lang['MECANICAASISTENCIA'] = 'Mechanics. Assistance in assembly, tests and trials';
 	$lang['INSTALACIONESELECTRICAS'] = 'Electrical installations';
 	$lang['INSTALACIONESNEUMATICAS'] = 'Pneumatic installations';
 	$lang['PIEZASPLASTICAS'] = 'Plastic parts';
 	$lang['UTILLAJES'] = 'Tooling';
 
 	// Maquetas
-	$lang['MAQUETASAESCALA'] = 'Models at reduced scale and actual size';
+	$lang['MAQUETASAESCALA'] = 'Reduced scale and full-size models';
 	$lang['PROTOIPOSFUNCIONALES'] = 'Functional prototypes';
-	$lang['MODELOSYMOLDES'] = 'Models and molds';
-	$lang['PIEZASENCOMPOSITE'] = 'Composite parts, phenolic and other fibers';
-	$lang['MONTAJESCONJUNTOS'] = 'Mounts assemblies (cabinets, desks, electric boxes, etc.)';
-	$lang['ASISTENCIATECNICA'] = 'Technical assistance to production';
+	$lang['MODELOSYMOLDES'] = 'Models and moulds';
+	$lang['PIEZASENCOMPOSITE'] = 'Composite parts, phenolic and other fibres';
+	$lang['MONTAJESCONJUNTOS'] = 'Installations and assemblies (cabs, driver desks, electric cabinets, etc.)';
+	$lang['ASISTENCIATECNICA'] = 'Technical assistance of production';
+
+	// Nosotros
+	$lang['NUESTROSTRABAJOS'] = 'Our jobs';
 
 	// Contacto
 	$lang['NOMBRE'] = 'Name';

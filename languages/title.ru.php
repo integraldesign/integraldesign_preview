@@ -25,7 +25,7 @@
 	$title_lang['MENU_DISPELEC'] = 'Электронные устройства';
 	$title_lang['MENU_DONDE'] = 'Где';
 	$title_lang['MENU_NOSOTROS'] = 'Мы';
-	$title_lang['MENU_CONTACTO'] = 'Связаться';
+	$title_lang['MENU_CONTACTO'] = 'Контакты';
 
 	// Títulos de página
 	$title_lang['TITLE_CONTACTO'] = 'Связаться с нами';
