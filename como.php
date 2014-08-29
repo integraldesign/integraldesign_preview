@@ -4,7 +4,6 @@
     $menu = 6;
     require_once("header.php");
 ?>
-	
 	<section id="como">
         <div class="container">
 			<div class="center wow fadeInDown">
@@ -12,7 +11,7 @@
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 				<p>
 					<div id="wrap">
-						<img usemap="#usemap" src="images/como/como.jpg" alt="">
+						<img usemap="#usemap"  src="images/como/como.jpg" alt="">
 						<map name="usemap">
 							<area shape="poly" coords="143,311,71,370,91,447,181,461,252,394,230,321" href="index.php" title="<?php echo $title_lang['MENU_INICIO']; ?>" alt="<?php echo $title_lang['MENU_INICIO']; ?>">
 							<area shape="poly" coords="271,308,298,378,385,391,448,330,418,258,337,250" data-toggle="modal" data-target="#concepto" href="#concepto" title="<?php echo $lang['CONCEPTO']; ?>" alt="<?php echo $lang['CONCEPTO']; ?>">
@@ -36,13 +35,33 @@
 	<script src="js/jquery.rwdImageMaps.min.js"></script>
 	<script src="js/jquery.maphilight.min.js"></script>
 	<script type="text/javascript">
+		(function($,sr){
+			 var debounce = function (func, threshold, execAsap) {
+			     var timeout;
+			     return function debounced () {
+			         var obj = this, args = arguments;
+			         function delayed () {
+			             if (!execAsap)
+			                 func.apply(obj, args);
+			             timeout = null;
+			         };
+			         if (timeout)
+			             clearTimeout(timeout);
+			         else if (execAsap)
+			             func.apply(obj, args);
+			         timeout = setTimeout(delayed, threshold || 100);
+			     };
+			 }
+			 jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+			})(jQuery,'smartresize');
+
 		$(document).ready(function(e) {
 			$('img[usemap]').rwdImageMaps();
 			$('img[usemap]').maphilight({ stroke: false, fillColor: 'C52D2F', fillOpacity: 0.5 });
 		});
 		jQuery(window).bind('resize orientationchange', function(e) {
 			var windowWidth = $(window).width();
-			jQuery(window).resize(function(){
+			jQuery(window).smartresize(function(){
 				jQuery('img[usemap]').maphilight({ stroke: false, fillColor: 'C52D2F', fillOpacity: 0.5 });
 				if(windowWidth != $(window).width()){
 					location.reload();

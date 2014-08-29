@@ -31,6 +31,59 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
     <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+        (function($,sr){
+             var debounce = function (func, threshold, execAsap) {
+                 var timeout;
+                 return function debounced () {
+                     var obj = this, args = arguments;
+                     function delayed () {
+                         if (!execAsap)
+                             func.apply(obj, args);
+                         timeout = null;
+                     };
+                     if (timeout)
+                         clearTimeout(timeout);
+                     else if (execAsap)
+                         func.apply(obj, args);
+                     timeout = setTimeout(delayed, threshold || 100);
+                 };
+             }
+             jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+            })(jQuery,'smartresize');
+
+        $(document).ready(function(e) {
+            var $window = $(window);
+            $dropdown = $('.dropdown');
+
+            $window.smartresize(function resize() {
+                console.log($window.width());
+                if ($window.width() < 767) {
+                    if ($('.navbar-collapse').hasClass('in')){
+                        if ($dropdown.hasClass("open")){
+                            $dropdown.removeClass("open");
+                        }else{
+                            window.setTimeout(function(){
+                                $dropdown.addClass("open");
+                            }, 500);
+                        }
+                    }else{
+                        $( "button.navbar-toggle" ).click(function() {
+                            if ($dropdown.hasClass("open")){
+                                $dropdown.removeClass("open");
+                            }else{
+                                window.setTimeout(function(){
+                                    $dropdown.addClass("open");
+                                }, 500);
+                            }
+                        });
+                    }
+                }else{
+                    $dropdown.removeClass('open');
+                }
+            }).trigger('resize');
+        });
+    </script>
 </head><!--/head-->
 
 <body class="homepage"> 
@@ -65,7 +118,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
         <?php if(empty($menu)){$menu = 1;} ?>
-        <nav class="navbar navbar-inverse" role="banner">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

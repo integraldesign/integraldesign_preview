@@ -2534,3 +2534,6 @@ img{
 }
 #wrap > div{background-size: cover !important;}
 #wrap{overflow: hidden;}
+.open2{
+  display: block;
+}
